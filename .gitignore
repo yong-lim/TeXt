@@ -2,3 +2,15 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+node_modules/
+.sass-cache/
+
+/.bundle/
+/vendor/bundle
+*.gem
+
+yarn.lock
+package-lock.json
+Gemfile.lock
+
