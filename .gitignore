@@ -14,3 +14,15 @@ yarn.lock
 package-lock.json
 Gemfile.lock
 
+*~
+~*
+*.diff
+*.patch
+*.bak
+.DS_Store
+*.swp
+*.swo
+*.log
+*.log.*
+
+test/
