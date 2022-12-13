@@ -5,6 +5,8 @@ tags: ssh, github
 This is the ssh config file settings and the commands to add ssh passphrase to Apple Keychain. 
 Also there's commands to test the settings out.
 
+<!--more-->
+
 ### Add and change ssh passphrase to Apple Keychain Access
 ``` console
 $ ssh-add --apple-use-keychain ~/.ssh/_ed255-gitlab
@@ -14,7 +16,7 @@ $ ssh-keygen -p -f ~/.ssh/_ed255-gitlab
 ### My ssh config
 ```zsh
 # G2K account
-Host github.com-g2k
+Host gh1
    HostName github.com
    User git
    IdentityFile ~/.ssh/
@@ -22,7 +24,7 @@ Host github.com-g2k
    UseKeychain yes
 
 # personal account
-Host github.com-yong
+Host gh2
    HostName github.com
    User git
    IdentityFile ~/.ssh/
