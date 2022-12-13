@@ -2,7 +2,6 @@
 title: My ssh config
 tags: ssh, github
 ---
-
 This is the ssh config file settings and the commands to add ssh passphrase to Apple Keychain. 
 Also there's commands to test the settings out.
 

@@ -1,5 +1,5 @@
 ---
-title: local git config
+title: Local git config
 tags: git, github
 ---
 
