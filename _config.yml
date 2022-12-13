@@ -182,6 +182,9 @@ analytics:
 markdown    : kramdown
 highlighter : rouge
 permalink   : date
+kramdown:
+  # This is default for GitHub Pages sites and cannot be changed.
+  syntax_highlighter: rouge
 
 exclude:
   - CHANGELOG.md
