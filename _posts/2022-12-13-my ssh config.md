@@ -8,7 +8,7 @@ Also there's commands to test the settings out.
 <!--more-->
 
 ### Add and change ssh passphrase to Apple Keychain Access
-``` console
+```bash
 $ ssh-add --apple-use-keychain ~/.ssh/_ed255-gitlab
 $ ssh-keygen -p -f ~/.ssh/_ed255-gitlab
 ```
@@ -52,4 +52,5 @@ Then look out for this output:
 > Hi USERNAME! You've successfully authenticated, but GitHub does not
 > provide shell access.
 ```
+
 
