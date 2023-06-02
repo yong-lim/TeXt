@@ -9,12 +9,12 @@ Also there's commands to test the settings out.
 
 ### Add and change ssh passphrase to Apple Keychain Access
 ```bash
-$ ssh-add --apple-use-keychain ~/.ssh/_ed255-gitlab
-$ ssh-keygen -p -f ~/.ssh/_ed255-gitlab
+ssh-add --apple-use-keychain ~/.ssh/_ed255-gitlab
+ssh-keygen -p -f ~/.ssh/_ed255-gitlab
 ```
 
 ### My ssh config
-```zsh
+```bash
 # G2K account
 Host gh1
    HostName github.com
@@ -44,11 +44,11 @@ Host gitlab
 **Teshing the ssh connections to GitHub**
 
 Type this command to test:
-``` console
-$ ssh -T git@github.com-yong
+``` bash
+ssh -T git@github.com-yong
 ```
 Then look out for this output:
-``` console
+``` bash
 > Hi USERNAME! You've successfully authenticated, but GitHub does not
 > provide shell access.
 ```

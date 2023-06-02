@@ -14,5 +14,5 @@ git config —local user.email "yong@g2k"
 ```
 
 ```console
-$ bundle lock --add-platform x86_64-linux
+bundle lock --add-platform x86_64-linux
 ```
