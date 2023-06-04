@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: main
+        ref: master
     - name: Run with dest path
       uses: helaili/jekyll-build@2.5.0
       with:
